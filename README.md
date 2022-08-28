@@ -23,9 +23,11 @@ A company is working on smart waste collection systems. A garbage collection or 
 - An endpoint was added to delete a container.
 - When a request was made with VehicleID, an endpoint was added to the vehicle that lists all the containers of that vehicle.
 - A new endpoint was added, which takes VehicleID and n (number of clusters) as parameters. It was written to divide all the containers of this vehicle into equal elements with respect to a given N and to give all the results as a single response.
+
 ## Project Structure and Explanations
 ![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/projectfilestructure.png)
 <p> Figure 3. Project Layers </p>
+
 ## Business
 It is the layer where business codes are written and validations are performed.
 
@@ -193,10 +195,10 @@ For example 13 container, 7 group;
 - If a vehicle instance not on the list is tried to be deleted, the program transmits the required message.
 
 ![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicledeletebefore.png)
-<p align="center"> Figure 34. Before Delete Method </p>
+<p> Figure 34. Before Delete Method </p>
 
 ![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicledelete.png)
 <p align="center"> Figure 35. Delete Method </p>
 
 ![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicledeleteafter.png)
-<p align="center"> Figure 36. After Delete Method </p>
+<p> Figure 36. After Delete Method </p>
