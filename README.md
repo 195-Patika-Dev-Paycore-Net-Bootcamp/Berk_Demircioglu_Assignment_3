@@ -80,7 +80,7 @@ This allows the program to communicate with different applications such as IOS a
 
 ## Update Method
 - This method is used to update the existing container according to the parameters taken from body to the list without changing vehicleId.
-- If a staff instance not on the list is tried to be updated, the program transmits the required message.
+- If a container instance not on the list is tried to be updated, the program transmits the required message.
 
 ![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/containerupdatebefore.png)
 <p align="center"> Figure 13. Before Update Method </p>
@@ -93,7 +93,7 @@ This allows the program to communicate with different applications such as IOS a
 
 ## Delete Method
 - This method is used to delete a container according to the parameters taken from body to the list.
-- If a staff instance not on the list is tried to be deleted, the program transmits the required message.
+- If a vehicle instance not on the list is tried to be deleted, the program transmits the required message.
 
 ![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/containerdelete.png)
 <p align="center"> Figure 16. Delete Method </p>
@@ -141,8 +141,62 @@ For example 13 container, 7 group;
  4 / 2 = 2 => list length = 2 && 4 - 2 = 2 <br>
  2 / 1 = 2 => list length = 2 && 2 - 2 = 0 <br>
 
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehiclepartitioncontainerbefore.png)
+<p align="center"> Figure 21. Vehicle Table </p>
+
 ![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehiclepartitioncontainerafter1.png)
-<p align="center"> Figure 21. PartitionContainers Method Example </p>
+<p align="center"> Figure 22. PartitionContainers Method Example </p>
 
- 
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehiclepartitioncontainerafter2.png)
+<p align="center"> Figure 23. PartitionContainers Method Results </p>
 
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehiclepartitioncontainerafter3.png)
+<p align="center"> Figure 24. PartitionContainers Method Results </p>
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehiclepartitioncontainerafter4.png)
+<p align="center"> Figure 25. PartitionContainers Method Results </p>
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehiclepartitioncontainerafter5.png)
+<p align="center"> Figure 26. PartitionContainers Method Results </p>
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehiclepartitioncontainerafter6.png)
+<p align="center"> Figure 27. PartitionContainers Method Results </p>
+
+## Add Method
+- This method is used to add a vehicle with the parameters taken from body to the list.
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicleaddbefore.png)
+<p align="center"> Figure 28. Before Add Method </p>
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicleadd.png)
+<p align="center"> Figure 29. Add Method </p>
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicleaddafter.png)
+<p align="center"> Figure 30. After Add Method </p>
+
+## Update Method
+- This method is used to update the existing vehicle according to the parameters taken from body to the list.
+- If a vehicle instance not on the list is tried to be updated, the program transmits the required message.
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicleupdatebefore.png)
+<p align="center"> Figure 31. Before Update Method </p>
+
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicleupdate.png)
+<p align="center"> Figure 32. Update Method </p>
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicleupdateafter.png)
+<p align="center"> Figure 33. After Update Method </p>
+
+## Delete Method
+- This method is used to delete a vehicle according to the parameters taken from body to the list.
+- If a vehicle instance not on the list is tried to be deleted, the program transmits the required message.
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicledeletebefore.png)
+<p align="center"> Figure 34. Before Delete Method </p>
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicledelete.png)
+<p align="center"> Figure 35. Delete Method </p>
+
+![](https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-3-berkdemirciogluu/blob/master/images/vehicledeleteafter.png)
+<p align="center"> Figure 36. After Delete Method </p>
