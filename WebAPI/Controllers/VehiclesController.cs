@@ -44,7 +44,7 @@ namespace WebAPI.Controllers
         public IActionResult PartitionContainers(int vehicleId, int partitionNumber)
         {
             var result = _vehicleService.PartitionContainers(vehicleId, partitionNumber);
-            if (result.Count != 0)
+            if (result != null)
             {
                 return Ok(result);
             }

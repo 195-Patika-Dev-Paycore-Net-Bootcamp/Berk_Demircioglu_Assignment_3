@@ -105,18 +105,23 @@ namespace Business.Concrete
         public List<List<Container>> PartitionContainers(int vehicleId, int partitionNumber)
         //The partition containers of the related vehicle with respect to a given partitionNumber size.
         {
+            var vehicle = _vehicleDal.Vehicles.Where(v => v.Id == vehicleId).FirstOrDefault();
             var containersList = _containerDal.Containers.Where(c => c.VehicleId == vehicleId).ToList(); //Containers are obtained.
             try
             {
+                if (vehicle == null)
+                {
+                    return null;
+                }
                 if (containersList.Count == 0) // If there is no container. Relevant message is sent.
                 {
-                    throw new Exception(message: Messages.NoContainerWithId);
+                    return null;
                 }
                 return containersList.PartitionContainers(partitionNumber); //Partition process.
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message); //In the event that something goes wrong. 
+                return null; //In the event that something goes wrong. 
             }
         }
 
