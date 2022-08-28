@@ -1,0 +1,100 @@
+[
+  [
+    {
+      "id": 1,
+      "containerName": "Bruna 102",
+      "latitude": 123.23,
+      "longitude": 126.78,
+      "vehicleId": 2
+    }
+  ],
+  [
+    {
+      "id": 5,
+      "containerName": "Bruna 105",
+      "latitude": 123.23,
+      "longitude": 126.78,
+      "vehicleId": 2
+    }
+  ],
+  [
+    {
+      "id": 6,
+      "containerName": "Bruna 106",
+      "latitude": 123.23,
+      "longitude": 126.78,
+      "vehicleId": 2
+    },
+    {
+      "id": 20,
+      "containerName": "Beta 101",
+      "latitude": 103.83,
+      "longitude": 102.78,
+      "vehicleId": 2
+    }
+  ],
+  [
+    {
+      "id": 21,
+      "containerName": "Beta 102",
+      "latitude": 103.83,
+      "longitude": 102.78,
+      "vehicleId": 2
+    },
+    {
+      "id": 22,
+      "containerName": "Kamil 245",
+      "latitude": 105.78,
+      "longitude": 106.48,
+      "vehicleId": 2
+    }
+  ],
+  [
+    {
+      "id": 23,
+      "containerName": "Beta 110",
+      "latitude": 103.83,
+      "longitude": 102.78,
+      "vehicleId": 2
+    },
+    {
+      "id": 24,
+      "containerName": "Beta 104",
+      "latitude": 103.83,
+      "longitude": 102.78,
+      "vehicleId": 2
+    }
+  ],
+  [
+    {
+      "id": 25,
+      "containerName": "Beta 105",
+      "latitude": 103.83,
+      "longitude": 102.78,
+      "vehicleId": 2
+    },
+    {
+      "id": 26,
+      "containerName": "Beta 106",
+      "latitude": 103.83,
+      "longitude": 102.78,
+      "vehicleId": 2
+    }
+  ],
+  [
+    {
+      "id": 27,
+      "containerName": "Beta 107",
+      "latitude": 103.83,
+      "longitude": 102.78,
+      "vehicleId": 2
+    },
+    {
+      "id": 28,
+      "containerName": "Beta 108",
+      "latitude": 103.83,
+      "longitude": 102.78,
+      "vehicleId": 2
+    }
+  ]
+]
