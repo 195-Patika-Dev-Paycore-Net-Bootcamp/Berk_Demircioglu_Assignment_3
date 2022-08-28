@@ -111,7 +111,7 @@ namespace Business.Concrete
             {
                 if (vehicle == null)
                 {
-                    return null;
+                    return null; // If there is no vehicle with given id.
                 }
                 if (containersList.Count == 0) // If there is no container. Relevant message is sent.
                 {
